@@ -14,9 +14,9 @@ from supplier import Supplier
 # Define EventManagementSystem class
 class EventManagementSystem:
     # Styling dictionary for regular buttons
-    button_style = {"bg": "#4d94ff", "fg": "white", "width": 20, "height": 2, "font": ("Arial", 12, "bold")}
+    button_style = {"bg": "#4d94ff", "fg": "black", "width": 20, "height": 2, "font": ("Arial", 12, "bold")}
     # Styling dictionary for submenu buttons
-    button_style_submenu = {"bg": "#4d94ff", "fg": "white", "width": 30, "height": 2, "font": ("Arial", 12, "bold")}
+    button_style_submenu = {"bg": "#4d94ff", "fg": "black", "width": 30, "height": 2, "font": ("Arial", 12, "bold")}
 
 # ************************************************************** Login Menu **************************************************************
 
@@ -654,7 +654,7 @@ class EventManagementSystem:
 
         tk.Label(entry_frame, text="Date:", bg='#b3e0ff').grid(row=3, column=0, padx=10, pady=5, sticky="e")
         # Button to open Calendar
-        calendar_button = tk.Button(entry_frame, text="Open Calendar", command=self.open_calendar, bg='#b3e0ff', fg='white', font=('Arial', 12, 'bold'))
+        calendar_button = tk.Button(entry_frame, text="Open Calendar", command=self.open_calendar, bg='#b3e0ff', fg='black', font=('Arial', 12, 'bold'))
         calendar_button.grid(row=3, column=1, padx=10, pady=5)
 
         tk.Label(entry_frame, text="Time:", bg='#b3e0ff').grid(row=4, column=0, padx=10, pady=5, sticky="e")
